@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Joel De Jesús Oseliz Reynoso
+//Matrícula: 2023-1132
+
+using System;
 
 class Program
 {
@@ -34,7 +37,7 @@ class Program
                 resultado = num1 / num2;
                 break;
             default:
-                Contole.WriteLine("Ha ocurrido algún error, vuelva a intentarlo.");
+                Contole.WriteLine("Ha ocurrido algún error, revise y vuelva a intentarlo nuevamente.");
                 break;
         }
 
