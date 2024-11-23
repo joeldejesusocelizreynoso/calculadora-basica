@@ -30,6 +30,12 @@ class Program
             case 3:
                 resultado = num1 * num2;
                 break;
+            case 4:
+                resultado = num1 / num2;
+                break;
+            default:
+                Contole.WriteLine("Ha ocurrido algún error, vuelva a intentarlo.");
+                break;
         }
 
         Console.WriteLine($"El resultado es: {resultado}");
