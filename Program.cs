@@ -24,7 +24,6 @@ class Program
             case 1:
                 resultado = num1 + num2;
                 break;
-            // Agrega los otros casos más adelante
         }
 
         Console.WriteLine($"El resultado es: {resultado}");
